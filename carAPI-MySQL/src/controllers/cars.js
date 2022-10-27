@@ -1,23 +1,23 @@
 const Car = require('../services/carService');
 
 const getAllCars = async (req, res) => {
-  res.json('funfou')
+  res.json('getAllCars')
 }
 
 const createCar = async (req, res) => {
-  res.json('funfou')
+  res.json('createCar')
 }
 
 const getCar = async (req, res) => {
-  res.json('funfou')
+  res.json('getCar')
 }
 
 const updateCar = async (req, res) => {
-  res.json('funfou')
+  res.json('updateCar')
 }
 
 const deleteCar = async (req, res) => {
-  res.json('funfou')
+  res.json('deleteCar')
 }
 
 module.exports = {
